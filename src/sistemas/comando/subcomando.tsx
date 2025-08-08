@@ -112,7 +112,7 @@ export const SubComando = () => {
               {noticiaDestaque.descricao
                 .split("\n")
                 .filter((paragrafo) => paragrafo.trim() !== "")
-                .map((paragrafo, idx) => (
+                .map((paragrafo: string, idx: number) => (
                   <p
                     key={idx}
                     className=" flex text-justify text-branca h-full w-150 mt-2 mb-2"
