@@ -19,56 +19,64 @@ export const Psbs = () => {
             titulo: "Altamira ",
             preco: " Projeto praça da altamira  ",
             imagem: img1,
-            
+            promocao: false,
         },
         {
             id: 2,
             titulo: "Marilac ",
             preco: "Comandante ( 2001 )",
             imagem: img2,
-            descricao: "Sub Comandante que liderou importantes operações na região dos Inhamuns"
+            descricao: "Sub Comandante que liderou importantes operações na região dos Inhamuns",
+            promocao: false
         },
         {
             id: 3,
             titulo: "Cosmo ",
             preco: "Comandante (2001-2004)",
             imagem: img3,
+            promocao: false,
         },
         {
             id: 4,
             titulo: "Altamira",
             preco: "Comandante (2005-2009)",
             imagem: img4,
+            promocao: false,
         },
         {
             id: 5,
             titulo: "Marilac",
             preco: "Comandante (2009-2012)",
             imagem: img5,
+            promocao: false,
         },
         {
             id: 6,
             titulo: "Cosmo",
             preco: "Comandante (2012-2016)",
             imagem: img6,
+            promocao: false,
         },
         {
             id: 7,
             titulo: "Altamira",
             preco: "Comandante (2016-2018)",
             imagem: img7,
+            promocao: false,
         },
         {
             id: 8,
             titulo: "Marilac",
             preco: "Comandante (2018-2019)",
             imagem: img8,
+            promocao: false,
         },
         {
             id: 9,
             titulo: "Altamira",
             preco: "Comandante (2019-2022)",
             imagem: img9,
+            promocao: false,
         },
     ];
 

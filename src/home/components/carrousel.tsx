@@ -1,5 +1,5 @@
 // importação do React
-import React, { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 // importação das imagens
 import img1 from "../../assets/img2/c1.jpeg";
@@ -10,9 +10,19 @@ import img5 from "../../assets/img2/i4.png";
 import img6 from "../../assets/img2/i5.png";
 import img7 from "../../assets/img2/i14.webp";
 
-export const Carrousel = ({ produtos = [], titulo = "Nossas Canetas Coloridas" }) => {
-  const [produtosLocais, setProdutosLocais] = useState([]);
-  const carouselRef = React.useRef(null);
+interface Produto {
+  id: number;
+  nome: string;
+  preco: string;
+  valor: string;
+  imagem: string;
+  promocao?: boolean;
+  maisVendido?: boolean;
+}
+
+export const Carrousel = ({ produtos = [], titulo = "Nossas Canetas Coloridas" }: { produtos?: Produto[], titulo?: string }) => {
+  const [produtosLocais, setProdutosLocais] = useState<Produto[]>([]);
+  const carouselRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
     if (carouselRef.current) {

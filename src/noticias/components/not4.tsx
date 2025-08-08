@@ -4,10 +4,20 @@ const img1 = "https://i.im.ge/2025/07/31/JPPBlp.e-5.jpeg";
 const img2 = "https://i.im.ge/2025/07/31/JPPeg1.e-4.jpeg";
 const img3 = "https://i.im.ge/2025/07/31/JPPJ6C.e-6.jpeg";
 
-import React, { useState } from "react";
+import { useState } from "react";
+
+interface Noticia {
+  id: number;
+  titulo: string;
+  preco: string;
+  imagem: string;
+  descricao: string;
+  promocao: boolean;
+  imagens: string[];
+}
 
 export const Noticia04 = () => {
-  const [noticiaDestaque, setNoticiaDestaque] = useState(null);
+  const [noticiaDestaque, setNoticiaDestaque] = useState<Noticia | null>(null);
 
   const noticias = [
     {
@@ -26,7 +36,7 @@ export const Noticia04 = () => {
     },
   ];
 
-  const handleSaibaMais = (noticia) => {
+  const handleSaibaMais = (noticia: Noticia) => {
     setNoticiaDestaque(noticia);
   };
 
@@ -100,7 +110,7 @@ export const Noticia04 = () => {
               {noticiaDestaque.imagens &&
                 noticiaDestaque.imagens
                   .slice(0, 3)
-                  .map((img, idx) => (
+                  .map((img: string, idx: number) => (
                     <img
                       key={idx}
                       src={img}
@@ -112,8 +122,8 @@ export const Noticia04 = () => {
             <div className="flex flex-col items-center justify-center m-2">
               {noticiaDestaque.descricao
                 .split("\n")
-                .filter((paragrafo) => paragrafo.trim() !== "")
-                .map((paragrafo, idx) => (
+                .filter((paragrafo: string) => paragrafo.trim() !== "")
+                .map((paragrafo: string, idx: number) => (
                   <p
                     key={idx}
                     className=" flex text-justify text-branca h-full w-200 mt-2 mb-2"

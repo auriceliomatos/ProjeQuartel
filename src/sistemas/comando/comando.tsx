@@ -4,10 +4,20 @@ import img1 from "../../assets/comados/c1.jpg";
 import img2 from "../../assets/comados/c1.jpg";
 import img3 from "../../assets/comados/c1.jpg";
 
-import React, { useState } from "react";
+import { useState } from "react";
+
+interface Noticia {
+  id: number;
+  titulo: string;
+  preco: string;
+  imagem: string;
+  descricao: string;
+  promocao: boolean;
+  imagens: string[];
+}
 
 export const Comando = () => {
-  const [noticiaDestaque, setNoticiaDestaque] = useState(null);
+  const [noticiaDestaque, setNoticiaDestaque] = useState<Noticia | null>(null);
 
   const noticias = [
     {
@@ -24,7 +34,7 @@ export const Comando = () => {
     },
   ];
 
-  const handleSaibaMais = (noticia) => {
+  const handleSaibaMais = (noticia: Noticia) => {
     setNoticiaDestaque(noticia);
   };
 
@@ -101,7 +111,7 @@ export const Comando = () => {
               {noticiaDestaque.imagens &&
                 noticiaDestaque.imagens
                   .slice(0, 4)
-                  .map((img, idx) => (
+                  .map((img: string, idx: number) => (
                     <img
                       key={idx}
                       src={img}
@@ -113,8 +123,8 @@ export const Comando = () => {
             <div className="flex flex-col items-center justify-center m-2">
               {noticiaDestaque.descricao
                 .split("\n")
-                .filter((paragrafo) => paragrafo.trim() !== "")
-                .map((paragrafo, idx) => (
+                .filter((paragrafo: string) => paragrafo.trim() !== "")
+                .map((paragrafo: string, idx: number) => (
                   <p
                     key={idx}
                     className=" flex text-justify text-branca h-full w-150 mt-2 mb-2"

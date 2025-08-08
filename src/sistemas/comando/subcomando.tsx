@@ -4,7 +4,7 @@ import img1 from "../../assets/comados/cle.jpeg";
 import img2 from "../../assets/comados/cle.jpeg";
 import img3 from "../../assets/comados/cle.jpeg";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface Noticia {
   id: number;

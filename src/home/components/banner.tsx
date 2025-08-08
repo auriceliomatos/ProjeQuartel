@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 
 // importação do Link do React Router
-import { Link } from "react-router-dom";
+
 
 // importação das imagens
 const img1 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/06/CONABOM.pdf-900-x-600-px-1200x800.png";

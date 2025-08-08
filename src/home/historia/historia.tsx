@@ -1,5 +1,5 @@
 import img from '../../assets/q15.jpeg'
-import fundo from '../../assets/f12.png'
+
 
 export const Historia = () => {
     return (
