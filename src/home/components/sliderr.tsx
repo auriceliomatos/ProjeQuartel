@@ -17,12 +17,10 @@ import { Link } from "react-router-dom";
 // importação das imagens
 import img1 from "../../assets/ocorrencia/f4.jpeg";
 import img2 from "../../assets/ocorrencia/f1.jpeg";
-import img3 from "../../assets/ocorrencia/i6.jpeg";
+const img3 = "https://i.im.ge/2025/08/14/JgvTzF.e9.jpeg";
 import img4 from "../../assets/ocorrencia/n1.jpeg";
 import img5 from "../../assets/ocorrencia/an-1.jpeg";
 import img6 from "../../assets/ocorrencia/e.jpeg";
-
-
 
 
 export const Sliderr = () => {

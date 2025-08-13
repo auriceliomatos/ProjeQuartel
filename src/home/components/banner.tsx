@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 const img1 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/06/CONABOM.pdf-900-x-600-px-1200x800.png";
 const img2 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/05/RODAPE-SITE-110-ANOS-1200x400.png";
 const img3 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2024/11/08EDB1BF-676B-4554-9588-28E22EE38A4F.jpeg";
-const img4 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/07/DSC_4439.jpg";
+const img4 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/06/WhatsApp-Image-2025-06-27-at-13.12.58.jpeg";
 
 
 

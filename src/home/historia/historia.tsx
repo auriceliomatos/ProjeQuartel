@@ -11,10 +11,12 @@ export const Historia = () => {
                     </h1>
             </div>
 
-            <div className="flex flex-col items-center md:flex-row  md:items-start ">
+            <div className="flex flex-col items-center md:flex-row  md:items-start 
+            
+            ">
 
                 <div className="w-250  mr-2 flex justify-center sm:h-70 sm:w-120 md:m-2 lg:w-250  
-                
+                 outline-white ease-in-out hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/40 hover:scale-105
                 ">
                     <img
                         src={img}

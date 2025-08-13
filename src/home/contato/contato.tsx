@@ -20,18 +20,18 @@ export const Contatos = () => {
                         </div>
 
                         {/* Content Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-5 ">
                             
                             {/* Loja Conceito */}
-                           
-                    
-                            <div className="bg-red-600 opacity-70 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-shadow duration-300
-                            outline-2 outline-offset-2 outline-red-500">
-                                <div className="text-center">
-                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-3 sm:mb-4">
+                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-transform duration-300
+                            outline-2 outline-offset-2 outline-red-500
+                            ease-in-out hover:-translate-y-1  hover:shadow-red-500/40 hover:scale-105
+                            ">
+                                <div className="text-center opacity-80">
+                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-red-600 mb-3 sm:mb-4">
                                         Nossa Localização
                                     </h2>
-                                    <div className="space-y-2 sm:space-y-3 text-white">
+                                    <div className="space-y-2 sm:space-y-3 text-red-600">
                                         <p className="text-xs sm:text-sm leading-relaxed text-lg">
                                             R:  Aeroporto - Aeroporto - Crateús/CE
                                         </p>
@@ -44,23 +44,27 @@ export const Contatos = () => {
                             
 
                             {/* Horário de Atendimento */}
-                            <div className="bg-red-600 opacity-70 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-shadow duration-300
-                            outline-2 outline-offset-2 outline-red-500">
-                                <div className="text-center">
-                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-3 sm:mb-4">
+                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6 transition-shadow duration-300
+                            outline-2 outline-offset-2 outline-red-500
+                            ease-in-out hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/40 hover:scale-105
+                            ">
+                                <div className="text-center opacity-80 ">
+                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-red-600 mb-3 sm:mb-4">
                                         Horário de Atendimento
                                     </h2>
-                                    <div className="space-y-2 sm:space-y-3 text-white">
-                                        <p className="text-xs sm:text-sm">Segunda a Sexta-feira</p>
+                                    <div className="space-y-2 sm:space-y-3 text-red-600 ">
+                                        <p className="text-xs sm:text-sm font-medium">Segunda a Sexta-feira</p>
                                         <p className="text-xs sm:text-sm font-medium">Das 08:00 às 17:00</p>
                                     </div>
                                 </div>
                             </div>
 
                             {/* Redes Sociais */}
-                            <div className="bg-red-600 opacity-70 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-shadow duration-300 md:col-span-2 lg:col-span-1 outline-2 outline-offset-2 outline-red-500">
-                                <div className="text-center">
-                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-4 sm:mb-6">
+                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6  transition-shadow duration-300 md:col-span-2 lg:col-span-1 outline-2 outline-offset-2 outline-red-500
+                            ease-in-out hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/40 hover:scale-105
+                            ">
+                                <div className="text-center opacity-80">
+                                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-red-600 mb-4 sm:mb-6">
                                         Redes Sociais
                                     </h2>
                                     <div className="space-y-3 sm:space-y-4">
@@ -72,7 +76,7 @@ export const Contatos = () => {
                                             rel="noopener noreferrer"
                                             className="
                                                 flex items-center justify-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg
-                                                bg-gradient-to-r from-pink-500 to-purple-600 text-white
+                                                bg-gradient-to-r from-pink-500 to-purple-600 text-red-600 e
                                                 hover:from-pink-600 hover:to-purple-700 transition-all duration-300
                                                 transform hover:scale-105 text-xs sm:text-sm
                                             "
@@ -88,7 +92,7 @@ export const Contatos = () => {
                                             href="mailto:rochelymsampaio@gmail.com"
                                             className="
                                                 flex items-center justify-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg
-                                                bg-gradient-to-r from-blue-500 to-blue-600 text-white
+                                                bg-gradient-to-r from-blue-500 to-blue-600 text-red-600
                                                 hover:from-blue-600 hover:to-blue-700 transition-all duration-300
                                                 transform hover:scale-105 text-xs sm:text-sm
                                             "

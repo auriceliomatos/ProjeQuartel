@@ -27,7 +27,7 @@ export const Comando = () => {
       imagem: img1,
       descricao: `
 
-            No dia 25 de julho de 2025, às 17:03 horas, a guarnição do Corpo de Bombeiros Militar do Ceará, sediada na 1ª Companhia do 4º Batalhão de Bombeiros Militares de Crateús, foi acionada via CIOPS (Centro Integrado de Operações de Segurança Pública) para atender uma ocorrência de incêndio ﬂorestal registrada sob o número RO20250032943.
+            Formado aspirante em 1996, pela Academia de Bombeiro Militar Dom Pedro II, no Rio de Janeiro, atuou no CBMCE, em quase 30 anos de oficialato, em funções como a de gerente de respostas aos desastres da Defesa Civil Estadual, coordenador do Projeto Saúde, Bombeiros e Sociedade e comandante do Centro de Treinamento e Desenvolvimento Humano, do Quartel do Conjunto Ceará (5ªCia/1ºBBM) e da 1ª Seção de Salvamento Marítimo do Mucuripe (1ªCSMar/BBS).
 `,
       promocao: true,
       imagens: [img1, img2, img3], // Exemplo de até 3 imagens

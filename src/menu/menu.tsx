@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import logo from "../assets/SIMBOLO.png";
 
+
 export const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (

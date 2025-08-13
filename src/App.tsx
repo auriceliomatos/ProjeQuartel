@@ -16,12 +16,9 @@ export const App = () => {
       <div className="min-h-screen bg-gray-900 text-white">
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/noticias' element={<Noticia/>} />
           <Route path='/comandantes/*' element={<Comandantes />} />
           <Route path='/projetos' element={<Contatos/>} />
-          <Route path='/noticias' element={<Noticia/>} />
-   
-
-          
         </Routes>
       </div>
     </BrowserRouter>

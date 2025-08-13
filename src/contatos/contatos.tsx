@@ -2,8 +2,8 @@
 import { Menu } from "../menu/menu";
 import { Footer } from "../foot/foot";
 import { Borda } from "../home/borda/borda";
-import { Psbs } from "./projeto/psbs";
-import { Jbv } from "./projeto/jbv";
+import { SliderPsbs } from "./projeto/sliderPsbs";
+import { SliderJbv } from "./projeto/sliderJbv";
 
 export const Contatos = () => {
   return (
@@ -14,7 +14,7 @@ export const Contatos = () => {
         </div>
 
         <div className="w-full">
-          <Psbs />
+          <SliderPsbs />
         </div>
 
         <div className="w-full">
@@ -22,7 +22,7 @@ export const Contatos = () => {
         </div>
 
         <div className="w-full">
-          <Jbv />
+          <SliderJbv />
         </div>
 
         <div className="w-full">
