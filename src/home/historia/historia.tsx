@@ -7,7 +7,7 @@ export const Historia = () => {
 
             <div className="w-full flex  justify-center md:items-start md:justify-center">
                 <h1 className="text-white m-2 lg:text-3xl text-center md:text-2xl md:p-2 ">
-                    1ª Cia / 4º BBM de CRATEÚS
+                    2ª Cia / 4º BBM de CRATEÚS
                     </h1>
             </div>
 

@@ -6,14 +6,15 @@ export const Papel = () => {
       <img
         src={img1}
         alt="img1"
-        className="w-full sm:h-60 md:h-80 lg:h-140 opacity-60 
+        className="w-full sm:h-60 md:h-80 lg:h-160 opacity-80 
         transition delay-150 duration-700 ease-in-out hover:-translate-x-1 hover:scale-105 
         "
       />
       <h1 className="text-red-800 text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold absolute bg-black/40 rounded py-1 px-4 
-      sm:bottom-8 text-center w-11/12 sm:w-auto">
-        Corpo de Bombeiros Militar do Ceará - 1ª Cia / 4º BBM de Crateús
+      text-center sm:w-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+         2ª Cia / 4º BBM de Crateús
       </h1>
     </div>
   )
 }
+
