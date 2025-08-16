@@ -11,9 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 
-// importação do Link do React Router
-import { Link } from "react-router-dom";
-
 // importação das imagens
 import img1 from "../../assets/comados/c2.jpeg";
 import img2 from "../../assets/comados/v6.jpeg";

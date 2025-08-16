@@ -4,7 +4,6 @@ import { Borda } from '../home/borda/borda'
 import { Comando } from './comando/comando'
 import { SubComando } from './comando/subcomando'
 import { Footer } from '../foot/foot'
-import { ExChefes } from './exchefes/exchefes'
 import { SliderExchefe } from './exchefes/sliderExchefe'
 
 

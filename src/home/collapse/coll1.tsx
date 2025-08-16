@@ -13,8 +13,8 @@ export const Coll1 = ({ titulo, conteudo }: Coll1Props) => {
   return (
     <div className="w-full h-full flex flex-col">
       <div
-        className={`w-200 h-12 relative flex justify-center items-center transition-all ease-in-out duration-500 bg-red-400 cursor-pointer ${
-          collapse ? "delay-200 rounded-xl" : "rounded-t-xl"
+        className={`w-full h-12 relative flex justify-center items-center transition-all ease-in-out duration-500 bg-red-400 cursor-pointer ${
+          collapse ? "rounded-xl" : "rounded-t-xl"
         }`}
         onClick={() => setCollapsed(!collapse)}
       >
@@ -29,18 +29,18 @@ export const Coll1 = ({ titulo, conteudo }: Coll1Props) => {
       </div>
 
       <div
-        className={`w-200 rounded-b-xl flex justify-center items-center bg-white ${
-          collapse ? "h-0" : "delay-200 h-20"
-        } transition-all ease-in-out duration-400`}
+        className={`w-full rounded-b-xl flex justify-center items-center bg-white overflow-hidden ${
+          collapse ? "h-0" : "h-20"
+        } transition-all ease-in-out duration-500`}
       >
         <AnimatePresence>
           {!collapse && (
             <motion.p
-              className="w-190 text-1xl text-justify text-black"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0, transition: { delay: 0 } }}
-              transition={{ delay: 0.5 }}
+              className="w-full px-4 text-lg text-justify text-black"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.3 }}
             >
               {conteudo}
             </motion.p>

@@ -11,9 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 
-// importação do Link do React Router
-import { Link } from "react-router-dom";
-
 // importação das imagens
 const img1 = 'https://www.ceara.gov.br/wp-content/uploads/2024/03/loreto-glp.jpg';
 

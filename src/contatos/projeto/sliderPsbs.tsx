@@ -11,9 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 
-// importação do Link do React Router
-import { Link } from "react-router-dom";
-
 // importação das imagens
 const img1 = 'https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2019/03/PSBS-768x512.jpg';
 const img2 = 'https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2019/03/PSBS1-768x432.jpg';
