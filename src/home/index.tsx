@@ -10,6 +10,7 @@ import { Sliderr } from './components/sliderr';
 import { Borda } from './borda/borda';
 import { Contatos } from './contato/contato';
 import { Banner } from './components/banner';
+import { Collapse } from './collapse/collapse';
 
 export const Home = () => {
   return (
@@ -47,6 +48,14 @@ export const Home = () => {
 
         <div className="w-full"> 
         <Sliderr/>
+        </div>
+
+        <div className="w-full"> 
+        <Borda/>
+        </div>
+
+        <div className="w-full"> 
+        <Collapse/>
         </div>
 
         <div className="w-full"> 
