@@ -106,7 +106,7 @@ export const Sliderr = () => {
       </Swiper>
       <div className="w-full flex justify-center m-3">
         <Link to="/noticias">
-          <button className="text-white text-2xl font-serif bg-black opacity-50 px-2 py-1
+          <button className="text-white text-2xl font-serif bg-red-400 px-2 py-1
            rounded hover:bg-red-600 hover:-translate-y-1 hover:scale-110  duration-200
            outline-2 outline-offset-2 outline-red-500">
             Ver Mais Notícias 

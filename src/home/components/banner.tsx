@@ -18,6 +18,8 @@ const img1 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/0
 const img2 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2025/05/RODAPE-SITE-110-ANOS-1200x400.png";
 const img3 = "https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2024/11/08EDB1BF-676B-4554-9588-28E22EE38A4F.jpeg";
 const img4 = "https://conabom2025.com.br/wp-content/uploads/2025/03/bb8f80e7349d2ff9db3ebf323d897b75.png";
+const img5 = "https://i.im.ge/2025/08/16/JWqm2W.q8.jpeg";
+
 
 
 
@@ -44,8 +46,12 @@ export const Banner = () => {
       image: img4,
       title: "Incêndio florestal",
     },
+    {
+      id: 5,
+      image: img5,
+      title: "Incêndio florestal",
+    },
     
-
   ];
   
   return (
