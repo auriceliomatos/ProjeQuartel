@@ -2,13 +2,13 @@
 import { useEffect, useState, useRef } from "react";
 
 // importação das imagens
-import img1 from "../../assets/img2/i2.webp";
-import img2 from "../../assets/img2/i3.webp";
-import img3 from "../../assets/img2/b1.jpg";
-import img4 from "../../assets/img2/l4.jpg";
-import img5 from "../../assets/img2/l1.jpg";
-import img6 from "../../assets/img2/l2.jpg";
-import img7 from "../../assets/img2/l3.jpg";
+import img1 from "../../assets/img/f1.png";
+import img2 from "../../assets/img/f2.png";
+import img3 from "../../assets/img/f3.png";
+import img4 from "../../assets/img/f4.png";
+import img5 from "../../assets/img/f5.webp";
+import img6 from "../../assets/img/l1.webp";
+import img7 from "../../assets/img/l2.webp";
 
 interface Produto {
   id: number;

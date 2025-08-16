@@ -2,13 +2,13 @@
 import { useEffect, useState, useRef } from "react";
 
 // importação das imagens
-import img1 from "../../assets/img2/c1.jpeg";
-import img2 from "../../assets/img2/c2.jpeg";
-import img3 from "../../assets/img2/c3.jpeg";
-import img4 from "../../assets/img2/c4.jpeg";
-import img5 from "../../assets/img2/i4.png";
-import img6 from "../../assets/img2/i5.png";
-import img7 from "../../assets/img2/i14.webp";
+import img1 from "../../assets/comados/c1.jpg";
+import img2 from "../../assets/comados/c2.jpeg";
+import img3 from "../../assets/comados/c3.jpg";
+import img4 from "../../assets/comados/c4.jpg";
+import img5 from "../../assets/comados/c5.jpeg";
+import img6 from "../../assets/comados/c7.jpeg";
+import img7 from "../../assets/comados/c10.jpg";
 
 interface Produto {
   id: number;
