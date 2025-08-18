@@ -13,7 +13,7 @@ export const Collapse = () => {
       </div>
 
       <div className="w-full h-20 justify-center items-center ">
-        <h1 className="text-2xl w-400 ml-30 justify-center items-center">
+        <h1 className="text-2xl w-350 ml-30 justify-center items-center">
         OBJETIVO: Estabelecer os critérios do processo de segurança contra incêndio e pânico das edificações e áreas de risco, atendendo ao previsto na Lei nº 13.556, de 29 de dezembro de 2004, alterada pela Lei nº 16.361, de 9 de outubro de 2017. 
         </h1>
       </div>
@@ -39,9 +39,9 @@ export const Collapse = () => {
         conteudo="As solicitações devem ser feitas de forma digital pelo site do CEPI clicando em Serviços. "/>
 
         <Coll1 
-        titulo="Quais documentos são necessários para o certificado ?" 
-        conteudo="Nota fiscal dos extitores;
-        Documentação da edificação, como comprovante de área (como escritura e IPTU) e; CNPJ impresso.  "/>
+        titulo="Documentos necessários para obter o certificado ?" 
+        conteudo="Nota fiscal dos extitores,
+        Documentação da edificação, como comprovante de área (como escritura ou IPTU) e CNPJ impresso.  "/>
 
 
       </div>

@@ -5,16 +5,13 @@ export const Historia = () => {
     return (
         <div className="w-full h-400 font-serif bg-gray-900 sm:h-120 " >
 
-            <div className="w-full h-15 top-5 flex  justify-center md:items-start md:justify-center">
+            <div className="  flex items-center">
+
+                <div className=" items-center m-3 w-200" >
                 <h1 className="text-white m-2 lg:text-3xl text-center md:text-2xl md:p-2 ">
                     2ª Cia / 4º BBM de CRATEÚS
                 </h1>
-            </div>
-
-            <div className="  flex items-center">
-
-                <div className=" items-center m-4 w-200" >
-                    <p className="text-white text-2xl text-justify ">
+                    <p className="text-white text-2xl text-justify mt-6">
                         Foi inaugurada no dia 06 de julho de 1999 sob o Comando do CAP QOBM Anderson Alves Viana, contando na época com um efetivo de 23 (vinte e três) profissionais prontamente qualificados nas diversas áreas (Combate a Incêndio, Salvamentos e APH). Atualmente situado no aeroporto da cidade.
                     </p>
                 </div>
