@@ -16,7 +16,7 @@ export const Home = () => {
   return (
  
     <>
-     <div className="items-center justify-center flex flex-col"> 
+     <div className="items-center justify-center flex flex-col pt-20"> 
         
         <div className="w-full"> 
         <Menu/>

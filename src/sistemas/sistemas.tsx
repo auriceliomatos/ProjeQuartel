@@ -4,21 +4,16 @@ import { Borda } from '../home/borda/borda'
 import { Comando } from './comando/comando'
 import { SubComando } from './comando/subcomando'
 import { Footer } from '../foot/foot'
-import { SliderExchefe } from './exchefes/sliderExchefe'
-
-
-
+import { Carrousel } from './exchefes/exslider'
 
 export const Comandantes = () => {
     return (
          <>
-     <div className="items-center justify-center"> 
+     <div className="items-center justify-center pt-20"> 
         
         <div className="w-full"> 
         <Menu/>
         </div>
-
-        
 
         <div className="w-full"> 
 
@@ -39,7 +34,7 @@ export const Comandantes = () => {
         </div>
 
         <div className="w-full"> 
-        <SliderExchefe/>
+        <Carrousel/>
         </div>
 
         <div className="w-full"> 

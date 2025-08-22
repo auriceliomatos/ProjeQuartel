@@ -23,7 +23,7 @@ export const Contatos = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-5 ">
                             
                             {/* Loja Conceito */}
-                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-transform duration-300
+                            <div className="  rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-transform duration-300
                             outline-2 outline-offset-2 outline-red-500
                             ease-in-out hover:-translate-y-1  hover:shadow-red-500/40 hover:scale-105
                             ">
@@ -44,7 +44,7 @@ export const Contatos = () => {
                             
 
                             {/* Horário de Atendimento */}
-                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6 transition-shadow duration-300
+                            <div className="  rounded-lg shadow-lg p-4 sm:p-6 transition-shadow duration-300
                             outline-2 outline-offset-2 outline-red-500
                             ease-in-out hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/40 hover:scale-105
                             ">
@@ -60,7 +60,7 @@ export const Contatos = () => {
                             </div>
 
                             {/* Redes Sociais */}
-                            <div className="bg-white  rounded-lg shadow-lg p-4 sm:p-6  transition-shadow duration-300 md:col-span-2 lg:col-span-1 outline-2 outline-offset-2 outline-red-500
+                            <div className="  rounded-lg shadow-lg p-4 sm:p-6  transition-shadow duration-300 md:col-span-2 lg:col-span-1 outline-2 outline-offset-2 outline-red-500
                             ease-in-out hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/40 hover:scale-105
                             ">
                                 <div className="text-center opacity-80">

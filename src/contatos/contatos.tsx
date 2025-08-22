@@ -8,7 +8,7 @@ import { SliderJbv } from "./projeto/sliderJbv";
 export const Contatos = () => {
   return (
     <>
-      <div className="items-center justify-center">
+      <div className="items-center justify-center pt-20">
         <div className="w-full">
           <Menu />
         </div>

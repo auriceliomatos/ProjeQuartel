@@ -10,7 +10,7 @@ import { Noticia05 } from './components/not5'
 
 export const Noticia = () => { 
     return (
-        <div className="items-center justify-center"> 
+        <div className="items-center justify-center pt-20"> 
         
         <div className="w-full"> 
         <Menu/>
