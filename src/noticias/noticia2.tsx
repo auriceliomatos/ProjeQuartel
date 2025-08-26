@@ -3,7 +3,7 @@ import { Menu } from '../menu/menu'
 
 import { Noticia06 } from './components/not6'
 
-export const Noticia = () => { 
+export const Noticia2 = () => { 
     return (
         <div className="items-center justify-center pt-20"> 
         

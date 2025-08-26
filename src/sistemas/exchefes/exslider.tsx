@@ -1,7 +1,16 @@
-// importação do React
-import React, { useEffect, useState, useRef } from "react";
+// React import
+import React, { useEffect, useState, useRef, useCallback } from "react";
 
-// importação das imagens
+// interface to type products
+interface Produto {
+  id: number;
+  nome: string;
+  preco: string;
+  promocao?: string;
+  imagem: string;
+}
+
+// image imports
 const img1 = "https://i.im.ge/2025/08/22/JJXuhF.c2.jpeg";
 const img2 = "https://i.im.ge/2025/08/22/JJXdHh.v6.jpeg";
 const img3 = " https://i.im.ge/2025/08/22/JJXFYK.c7.jpeg";
@@ -12,11 +21,11 @@ const img7 = " https://i.im.ge/2025/08/22/JJXXWz.c4.jpeg";
 const img8 = " https://i.im.ge/2025/08/22/JJXOB9.c10.jpeg";
 const img9 = " https://i.im.ge/2025/08/22/JJXTOy.c5.jpeg";
 
-export const Carrousel = ({ produtos = [], titulo = "Ex-Comandantes" }) => {
-  const [produtosLocais, setProdutosLocais] = useState([]);
+export const Carrousel = ({ produtos = [], titulo = "Ex-Comandantes" }: { produtos?: Produto[], titulo?: string }) => {
+  const [produtosLocais, setProdutosLocais] = useState<Produto[]>([]);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const carouselRef = useRef(null);
-  const autoPlayRef = useRef(null);
+  const carouselRef = useRef<HTMLDivElement>(null);
+  const autoPlayRef = useRef<number | null>(null);
 
   const scrollLeft = () => {
     if (carouselRef.current) {
@@ -39,7 +48,7 @@ export const Carrousel = ({ produtos = [], titulo = "Ex-Comandantes" }) => {
   };
 
   // Função para rolagem automática
-  const autoScroll = () => {
+  const autoScroll = useCallback(() => {
     console.log('Função autoScroll chamada');
     
     if (!carouselRef.current) {
@@ -69,14 +78,14 @@ export const Carrousel = ({ produtos = [], titulo = "Ex-Comandantes" }) => {
     } catch (error) {
       console.error('Erro no auto-scroll:', error);
     }
-  };
+  }, [isAutoPlaying]);
 
   useEffect(() => {
     if (produtos && produtos.length > 0) {
       setProdutosLocais(produtos);
     } else {
       // Dados padrão se não houver produtos via props
-      const dadosPadrao = [
+      const dadosPadrao: Produto[] = [
         {
           id: 1,
           nome: "Cel Anderson",
@@ -168,7 +177,7 @@ export const Carrousel = ({ produtos = [], titulo = "Ex-Comandantes" }) => {
         clearInterval(autoPlayRef.current);
       }
     };
-  }, [isAutoPlaying, produtosLocais.length]); // Mudou de produtosLocais para produtosLocais.length
+  }, [isAutoPlaying, produtosLocais.length, autoScroll]);
 
   if (!produtosLocais || produtosLocais.length === 0) {
     console.log("Nenhum produto encontrado");
