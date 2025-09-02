@@ -91,7 +91,7 @@ export const Noticia3 = () => {
         equipe="Equipe de serviço: SUB TEN Auricelio, SARGENTO Agnaldo, Cabo Cleuto, Soldado Correia Lima" 
         descricao="No dia 21 de julho de 2025, a guarnição realizou manutenção preventiva em equipamentos de combate a incêndio e resgate. A atividade incluiu verificação de extintores, mangueiras e equipamentos de proteção individual.
         A manutenção preventiva é essencial para garantir que todos os equipamentos estejam em perfeitas condições de uso, permitindo que a equipe responda com eficiência a qualquer emergência." 
-        imag={["https://i.im.ge/2025/07/31/JPPVeh.e-3.jpeg ", "https://i.im.ge/2025/07/31/JPPKc8.e-2.jpeg", "https://i.im.ge/2025/07/31/JPPkDM.e-1.jpeg"]}
+        imag={["https://i.im.ge/2025/07/31/JPPBlp.e-5.jpeg ", "https://i.im.ge/2025/07/31/JPPeg1.e-4.jpeg", "https://i.im.ge/2025/07/31/JPPJ6C.e-6.jpeg"]}
         />
         <Noticia06
         titulo="Ação comunitária" 
@@ -99,7 +99,7 @@ export const Noticia3 = () => {
         equipe="Equipe de serviço: SUB TEN Auricelio, SARGENTO Agnaldo, Cabo Cleuto, Soldado Correia Lima" 
         descricao="No dia 20 de julho de 2025, a guarnição participou de uma ação comunitária no bairro periférico de Crateús, realizando vistorias de segurança em residências e orientando moradores sobre prevenção de acidentes domésticos.
         A ação demonstra o compromisso do Corpo de Bombeiros não apenas com o atendimento de emergências, mas também com a prevenção e educação da comunidade para reduzir riscos e salvar vidas." 
-        imag={["https://i.im.ge/2025/07/31/JPPBlp.e-5.jpeg ", "https://i.im.ge/2025/07/31/JPPeg1.e-4.jpeg", "https://i.im.ge/2025/07/31/JPPJ6C.e-6.jpeg"]}
+        imag={["https://i.im.ge/2025/07/31/JPPVeh.e-3.jpeg ", "https://i.im.ge/2025/07/31/JPPKc8.e-2.jpeg", "https://i.im.ge/2025/07/31/JPPkDM.e-1.jpeg"]}
         />
 
         </div>

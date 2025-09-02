@@ -3,14 +3,15 @@
 
 // importação do componente React
 import { Menu } from '../menu/menu'
-import { Papel } from './papel/papel'
+//import { Papel } from './papel/papel'
 import { Footer } from '../foot/foot'
 import { Historia } from './historia/historia'
 import { Sliderr } from './components/sliderr';
 import { Borda } from './borda/borda';
 import { Contatos } from './contato/contato';
-import { Banner } from './components/banner';
+//import { Banner } from './components/banner';
 import { Collapse } from './collapse/collapse';
+import { Banner2 } from './components/banner2';
 
 export const Home = () => {
   return (
@@ -23,7 +24,7 @@ export const Home = () => {
         </div>
 
         <div className="w-full"> 
-        <Papel/>
+        <Banner2/>
         </div>
 
         <div className="w-full"> 
@@ -32,14 +33,6 @@ export const Home = () => {
 
         <div className="w-full"> 
         <Historia/>
-        </div>
-
-        <div className="w-full"> 
-        <Borda/>
-        </div>
-
-        <div className="w-full"> 
-        <Banner/>
         </div>
 
         <div className="w-full"> 
